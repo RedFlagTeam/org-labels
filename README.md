@@ -43,6 +43,12 @@ Both `<org>` and `<repo>` may optionally be formatted as `<org/repo>`.
 
 ## Examples
 
+Standardaze the labels in a Red Flag repository:
+
+```bash
+org-labels standardize RedFlagTeam/<repo-name> RedFlagTeam/shared-github -d
+```
+
 The following would add a `docs` issue label with the color `d4c5f9` to every repo in `repo-utils`.
 
 ```bash
